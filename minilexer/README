@@ -1,0 +1,4 @@
+** How to run the test **
+> make
+
+Not supported on gcc(ECMAScript RE seems not be implemented yet).
