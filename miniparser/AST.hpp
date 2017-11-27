@@ -1047,7 +1047,7 @@ namespace miniparser {
 			mini->initMacro({
 				{std::string("AROP"), std::string("[+-/\\*]")},
 				{std::string("MISCEL0"), std::string("==|&&|!=|\\|\\|")},
-				{std::string("MISCEL1"), std::string("=|,|;|\\.|:|\\(|\\)|>|<|!|\\[|\]|\\{|\\}")},
+				{std::string("MISCEL1"), std::string("=|,|;|\\.|:|\\(|\\)|>|<|!|\\[|]|\\{|\\}")},
 				{std::string("API"), std::string("console.log")},
 				{std::string("VARIABLE"), std::string("^([[:alpha:]])+(([[:alnum:]])*)")},
 				{std::string("STRING"), std::string("\'[^\']*\'")},
